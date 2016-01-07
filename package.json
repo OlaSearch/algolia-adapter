@@ -1,0 +1,32 @@
+{
+  "name": "olasearch-algolia-adapter",
+  "version": "0.0.1",
+  "description": "OlaSearch adapter for algolia",
+  "main": "adapter.js",
+  "scripts": {
+    "compile": "babel --stage 0 index.js -o adapter.js",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlaSearch/algolia-adapter.git"
+  },
+  "keywords": [
+    "olasearch",
+    "algolia"
+  ],
+  "author": "Vinay M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlaSearch/algolia-adapter/issues"
+  },
+  "homepage": "https://github.com/OlaSearch/algolia-adapter#readme",
+  "dependencies": {
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1"    
+  }
+}
